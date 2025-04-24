@@ -7,4 +7,4 @@ Here you could expand on what each of these endpoints do.
 
 # How to access the app?
 
-You can access the app by accessing this URL: `${{values.app_name}}-${{values.env_name}}.ioinfo.shop/api/v1/healthz` 
+You can access the app by accessing this URL: `${{values.app_name}}-${{values.app_env}}.ioinfo.shop/api/v1/healthz` 

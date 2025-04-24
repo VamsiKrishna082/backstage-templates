@@ -14,7 +14,7 @@ def info():
     	'hostname': socket.gethostname(),
         'message': 'You are doing great, little human! <3',
         'deployed_on': 'kubernetes',
-        'env': '${{values.env-name}}',
+        'env': '${{values.app_env}}',
         'app_name': '${{values.app_name}}'
     })
 

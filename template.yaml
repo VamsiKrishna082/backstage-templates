@@ -42,9 +42,12 @@ spec:
       action: publish:github
       input:
         description: This is ${{ parameters.component_id }}
-        repoUrl: github.com?owner=VamsiKrish82&repo=${{parameters.component_id}}
+        repoUrl: github.com?owner=Tensure&repo=${{parameters.component_id}}
         protectDefaultBranch: false
-        repoVisibility: public
+        repoVisibility: private
+        collaborators:
+          - username: VamsiKrishna082
+            permission: admin 
 
     - id: register
       name: Register

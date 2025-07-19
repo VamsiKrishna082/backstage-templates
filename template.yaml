@@ -1,9 +1,9 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: PMO- FrontendTemplate
-  title: NextJs Starter App
-  description: Provisions a starter application
+  name: PMO-Frontend-Template
+  title: Nextjs Template
+  description: Provisions a NextJs Starter Template which deploys to Cloud Run
 spec:
   owner: development
   type: service
@@ -41,12 +41,10 @@ spec:
       name: Publish
       action: publish:github
       input:
-        allowedHosts:
-          - github.com
         description: This is ${{ parameters.component_id }}
-        repoUrl: github.com?owner=VamsiKrish82&repo=${{parameters.component_id}}
+        repoUrl: github.com?owner=Tensure&repo=${{parameters.component_id}}
         protectDefaultBranch: false
-        repoVisibility: public
+        repoVisibility: private
 
     - id: register
       name: Register

@@ -1,9 +1,9 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: python-template
-  title: Python flask template - test
-  description: Provisions a minimalistic flask application
+  name: PMO- FrontendTemplate
+  title: NextJs Starter App
+  description: Provisions a starter application
 spec:
   owner: development
   type: service

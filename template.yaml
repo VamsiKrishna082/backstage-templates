@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: PMO-Frontend-Template
+  name: PMO-Frontend-Template-testing
   title: Nextjs Template
   description: Provisions a NextJs Starter Template which deploys to Cloud Run
 spec:

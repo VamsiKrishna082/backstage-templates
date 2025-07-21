@@ -46,8 +46,7 @@ spec:
         protectDefaultBranch: false
         repoVisibility: private
         collaborators:
-          - username: VamsiKrishna082
-            permission: admin 
+          - VamsiKrishna082
 
     - id: register
       name: Register

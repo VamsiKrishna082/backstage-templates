@@ -45,8 +45,6 @@ spec:
         repoUrl: github.com?owner=Tensure&repo=${{parameters.component_id}}
         protectDefaultBranch: false
         repoVisibility: private
-        collaborators:
-          - VamsiKrishna082
 
     - id: register
       name: Register
